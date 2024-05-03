@@ -1,4 +1,5 @@
-**Club de Trading : QuantFinRessources**
+Club de Trading : QuantFinRessources
+==============
 
 **Bienvenue**  
 
