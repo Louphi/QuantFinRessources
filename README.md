@@ -1,5 +1,6 @@
 Club de Trading : QuantFinRessources
 ==============
+# Introduction
 
 **Bienvenue**  
 
@@ -8,3 +9,5 @@ Ce dépôt GitHub est conçu pour fournir aux étudiants de premier cycle des ou
 **Welcome**
 
 This GitHub repository is designed to provide undergraduate students with accessible, practical tools and knowledge in quantitative finance. Here, you will find tutorials, datasets, scripts, and project examples that cover essential topics like statistical analysis, financial modeling, portfolio optimization, and more.
+
+# Contenu
