@@ -2,7 +2,7 @@ import statsmodels.api as sm
 
 def f_general_linear_model(data, dependent_vars, independent_vars):
     """
-    Perform multivariate multiple linear regression.
+    Perform multivariate multiple linear_regression.
 
     Parameters:
     data (DataFrame): The pandas DataFrame containing the dataset.
