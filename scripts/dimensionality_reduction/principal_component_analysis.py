@@ -18,11 +18,11 @@ def f_principal_component_analysis(data, n_components):
     scaler = StandardScaler()
     data_scaled = scaler.fit_transform(data)
 
-    # PCA: reduce the dimensionality of the data
+    # Compute principle components
     pca = PCA(n_components=n_components)
     principal_components = pca.fit_transform(data_scaled)
 
-    # Creating a DataFrame for the principal components
+    # Create DataFrame for the principal components
     pca_df = pd.DataFrame(data=principal_components,
                           columns=[f'Principal Component {i+1}' for i in range(n_components)])
 
