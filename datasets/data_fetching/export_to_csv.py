@@ -1,8 +1,6 @@
 import pandas as pd
 import os
 from datetime import datetime
-from fetch_stock_data import f_fetch_stock_data
-
 
 def f_export_to_csv(data, filename, datatype):
     """
