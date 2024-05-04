@@ -23,7 +23,7 @@ def get_api_key(filename="alpha_vantage_API_key.txt"):
 api_key_file = 'alpha_vantage_API_key.txt'
 api_key = get_api_key(api_key_file)
 
-def f_fetch_stock_data(symbol, api_key, start_date, end_date, interval='daily', outputsize='full'):
+def f_fetch_stock_data(symbol, start_date, end_date, api_key=api_key, interval='daily', outputsize='full'):
     """
     Fetch stock time series data from Alpha Vantage between specific dates.
 

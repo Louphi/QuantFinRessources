@@ -36,5 +36,6 @@ def f_export_to_csv(data, filename, datatype):
     full_path = os.path.join(directory, f"{filename}_{date_str}.csv")
 
     # Save the DataFrame to a CSV file
-    data.to_csv(full_path, index=False)
+    data.to_csv(full_path, index=True)
     print(f"Data successfully exported to {full_path}")
+
