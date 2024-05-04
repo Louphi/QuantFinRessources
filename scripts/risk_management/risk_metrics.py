@@ -29,7 +29,7 @@ def f_compute_CVaR(returns, confidence_level=0.95):
     float: The Conditional Value at Risk (CVaR) at the specified confidence level.
     """
     # Calculate VaR
-    VaR = f_VaR(returns, confidence_level)
+    VaR = f_compute_VaR(returns, confidence_level)
 
     # Calculate CVaR as the mean of the returns that are worse than the VaR
     CVaR = returns[returns <= VaR].mean()
