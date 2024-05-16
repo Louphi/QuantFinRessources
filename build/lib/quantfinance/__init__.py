@@ -1,3 +1,4 @@
 from .dimensionality_reduction import principal_component_analysis, singular_value_decomposition
 from .linear_regression import multivariate_linear_regression
 from .risk_management import risk_metrics
+from .data_fetching import fetch_stock_data
