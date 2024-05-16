@@ -1,10 +1,11 @@
+# setup.py
 from setuptools import setup, find_packages
 
 setup(
-    name='quantfinance',  # The name of your package
-    version='0.1',  # The version of your package
-    packages=find_packages(where='src'),  # Automatically find packages in the 'src' directory
-    package_dir={'': 'src'},  # The root directory for packages is 'src'
+    name='quantfinance',
+    version='0.1.0',
+    packages=find_packages(where='src'),
+    package_dir={'': 'src'},
     install_requires=[
         'numpy',
         'pandas',
@@ -12,7 +13,13 @@ setup(
         'matplotlib',
         'seaborn',
         'scikit-learn'
-        # Add other dependencies here
     ],
+    author='Philippe Gagné',
+    author_email='philippe.5.gagne@hec.ca',
+    description='A package for quantitative finance functions.',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/Louphi/QuantFinRessources',  # Update with your GitHub URL
 )
+
 

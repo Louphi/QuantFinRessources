@@ -6,6 +6,8 @@ src/quantfinance.egg-info/SOURCES.txt
 src/quantfinance.egg-info/dependency_links.txt
 src/quantfinance.egg-info/requires.txt
 src/quantfinance.egg-info/top_level.txt
+src/quantfinance/data_fetching/__init__.py
+src/quantfinance/data_fetching/fetch_stock_data.py
 src/quantfinance/dimensionality_reduction/__init__.py
 src/quantfinance/dimensionality_reduction/principal_component_analysis.py
 src/quantfinance/dimensionality_reduction/singular_value_decomposition.py
