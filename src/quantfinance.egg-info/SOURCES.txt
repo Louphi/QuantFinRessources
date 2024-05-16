@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/quantfinance/__init__.py
+src/quantfinance.egg-info/PKG-INFO
+src/quantfinance.egg-info/SOURCES.txt
+src/quantfinance.egg-info/dependency_links.txt
+src/quantfinance.egg-info/requires.txt
+src/quantfinance.egg-info/top_level.txt
+src/quantfinance/dimensionality_reduction/__init__.py
+src/quantfinance/dimensionality_reduction/principal_component_analysis.py
+src/quantfinance/dimensionality_reduction/singular_value_decomposition.py
+src/quantfinance/linear_regression/__init__.py
+src/quantfinance/linear_regression/multivariate_linear_regression.py
+src/quantfinance/risk_management/__init__.py
+src/quantfinance/risk_management/risk_metrics.py

@@ -1,0 +1,2 @@
+from .principal_component_analysis import f_principal_component_analysis
+from .singular_value_decomposition import f_compute_svd
