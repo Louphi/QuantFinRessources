@@ -1,0 +1,17 @@
+README.md
+setup.py
+src/quantfinanceHEC/__init__.py
+src/quantfinanceHEC.egg-info/PKG-INFO
+src/quantfinanceHEC.egg-info/SOURCES.txt
+src/quantfinanceHEC.egg-info/dependency_links.txt
+src/quantfinanceHEC.egg-info/requires.txt
+src/quantfinanceHEC.egg-info/top_level.txt
+src/quantfinanceHEC/data_fetching/__init__.py
+src/quantfinanceHEC/data_fetching/fetch_stock_data.py
+src/quantfinanceHEC/dimensionality_reduction/__init__.py
+src/quantfinanceHEC/dimensionality_reduction/principal_component_analysis.py
+src/quantfinanceHEC/dimensionality_reduction/singular_value_decomposition.py
+src/quantfinanceHEC/linear_regression/__init__.py
+src/quantfinanceHEC/linear_regression/multivariate_linear_regression.py
+src/quantfinanceHEC/risk_management/__init__.py
+src/quantfinanceHEC/risk_management/risk_metrics.py
