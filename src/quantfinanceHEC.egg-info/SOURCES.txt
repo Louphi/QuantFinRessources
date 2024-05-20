@@ -13,5 +13,7 @@ src/quantfinanceHEC/dimensionality_reduction/principal_component_analysis.py
 src/quantfinanceHEC/dimensionality_reduction/singular_value_decomposition.py
 src/quantfinanceHEC/linear_regression/__init__.py
 src/quantfinanceHEC/linear_regression/multivariate_linear_regression.py
+src/quantfinanceHEC/portfolio_management/__init__.py
+src/quantfinanceHEC/portfolio_management/performance_analytics.py
 src/quantfinanceHEC/risk_management/__init__.py
 src/quantfinanceHEC/risk_management/risk_metrics.py
