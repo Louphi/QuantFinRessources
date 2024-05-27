@@ -1,0 +1,3 @@
+
+def bell_number(n):
+    bn = sum()
