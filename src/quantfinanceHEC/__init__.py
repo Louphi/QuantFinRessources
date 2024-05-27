@@ -4,3 +4,4 @@ from .risk_management import risk_metrics
 from .data_fetching import fetch_stock_data
 from .portfolio_management import performance_analytics
 from .combinatorics import binomial_coefficient, multinomial_coefficient
+from .set_theory import bell_number
