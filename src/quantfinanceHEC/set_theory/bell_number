@@ -1,6 +1,6 @@
+from quantfinanceHEC.combinatorics.binomial_coefficient import f_binomial_coefficient
 
-
-def bell_number(n):
+def f_calculate_bell_number(n):
     
     sum = 0
 
