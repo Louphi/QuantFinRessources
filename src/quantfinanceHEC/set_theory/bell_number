@@ -1,12 +1,10 @@
-from quantfinanceHEC.combinatorics.binomial_coefficient import f_binomial_coefficient
-
 def f_calculate_bell_number(n):
     
     sum = 0
 
     for k in range(0, n-1):
 
-        sum += f_binomial_coefficient(n-1, k) * bell_number(k)
+        sum += k
     
     return sum
 

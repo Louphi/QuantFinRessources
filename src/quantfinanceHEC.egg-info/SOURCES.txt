@@ -18,3 +18,4 @@ src/quantfinanceHEC/portfolio_management/__init__.py
 src/quantfinanceHEC/portfolio_management/performance_analytics.py
 src/quantfinanceHEC/risk_management/__init__.py
 src/quantfinanceHEC/risk_management/risk_metrics.py
+src/quantfinanceHEC/set_theory/__init__.py
