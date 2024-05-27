@@ -10,7 +10,7 @@ def f_multinomial_coefficient(n, k_list):
     
     factorial_product = prod(math.factorial(k) for k in k_list)
 
-    return math.factorial(n) \ factorial_product
+    return math.factorial(n) / factorial_product
 
 
     

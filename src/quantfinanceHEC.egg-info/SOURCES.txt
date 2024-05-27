@@ -6,6 +6,7 @@ src/quantfinanceHEC.egg-info/SOURCES.txt
 src/quantfinanceHEC.egg-info/dependency_links.txt
 src/quantfinanceHEC.egg-info/requires.txt
 src/quantfinanceHEC.egg-info/top_level.txt
+src/quantfinanceHEC/combinatorics/__init__.py
 src/quantfinanceHEC/data_fetching/__init__.py
 src/quantfinanceHEC/data_fetching/fetch_stock_data.py
 src/quantfinanceHEC/dimensionality_reduction/__init__.py

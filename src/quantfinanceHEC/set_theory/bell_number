@@ -1,3 +1,12 @@
 
+
 def bell_number(n):
-    bn = sum()
+    
+    sum = 0
+
+    for k in range(0, n-1):
+
+        sum += f_binomial_coefficient(n-1, k) * bell_number(k)
+    
+    return sum
+
